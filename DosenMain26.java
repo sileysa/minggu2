@@ -14,8 +14,8 @@ public class DosenMain26 {
         ds1.ubahKeahlian("DasPro");
         ds1.tampilkanInformasi();
 
-        Dosen26 ds2 = new Dosen26("AF", "Astrifidha Rahma Amalia,S.Pd., M.Pd.", true, 2010, "Agama");
-        ds2.setStatusAktif(false);
+        Dosen26 ds2 = new Dosen26("AF", "Astrifidha Rahma Amalia,S.Pd., M.Pd.", false, 2010, "Agama");
+        ds2.setStatusAktif(true);
         ds2.hitungMasaKerja(2025);
         ds2.tampilkanInformasi();
     }

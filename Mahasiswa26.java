@@ -6,9 +6,9 @@ public class Mahasiswa26 {
     String kelas;
     double ipk;
 
-    public Mahasiswa26(){
+    /*public Mahasiswa26(){
 
-    }
+    }*/
 
     public Mahasiswa26(String nm, String nim, double ipk, String kls) {
         nama = nm;

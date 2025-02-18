@@ -29,7 +29,7 @@ public class Dosen26 {
         System.out.println("Bidang Keahlian: " + bidangKeahlian);
     }
 
-    void setStatusAktif(boolean status){
+    boolean setStatusAktif(boolean status){
         
         if (status == true) {
             System.out.println("Aktif");
@@ -37,6 +37,7 @@ public class Dosen26 {
             System.out.println("Tidak Aktif");
         }
         statusAktif = status;
+        return statusAktif;
     }
 
     int hitungMasaKerja(int thnSkrng){
